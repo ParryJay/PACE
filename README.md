@@ -298,7 +298,7 @@ If you find this work useful, please cite:
 ```bibtex
 @article{jie2026pace,
   title   = {{PACE}: Partial-Correspondence Auditing and Calibrated Evidential Fusion for Unregistered {WLI/NBI} Lesion Segmentation},
-  author  = {Jie, Pengyu and Liu, Wanquan and He, Rui and Wen, Yihui and Li, Pengcheng and Wen, Weiping and Meng, Deyu and Han, Junwei and Gao, Chenqiang},
+  author  = {Jie, Pengyu and others},
   journal = {<manuscript>},
   year    = {2026}
 }
