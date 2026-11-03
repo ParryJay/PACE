@@ -1,0 +1,42 @@
+# Runtime environment for main/SYSU/main_PACE.py.
+# Versions are taken from the project's installed mmmv environment.
+# Target: Linux x86_64 with an NVIDIA driver supporting CUDA 12.1.
+#
+# From the repository root:
+#   conda env create -f test/requirement.yaml
+#   conda activate mmmv-pace
+#   python main/SYSU/main_PACE.py --help
+#
+# Before training, update the split JSON and image/mask paths in
+# dataset/SYSU/cls_dataset_MMMV_train_IMG.py and cls_dataset_MMMV_test_IMG.py.
+# The default pretrained ConvNeXtV2 encoder needs internet access on first use
+# or cached timm/Hugging Face weights. --encoder_pretrained false uses random
+# initialization instead. Use --devices 0 for a single GPU (default: 0,1,2,3).
+name: mmmv-pace
+channels:
+  - defaults
+dependencies:
+  - python=3.11.14
+  - pip=25.2
+  - pip:
+      # On Linux x86_64, these PyPI wheels install CUDA 12.1 runtime libraries.
+      - torch==2.4.1
+      - torchvision==0.19.1
+      - timm==1.0.22
+
+      # Training, segmentation metrics, and dataset imports.
+      - numpy==2.2.6
+      - scipy==1.16.3
+      - albumentations==2.0.8
+      # A single cv2 provider; no GUI is needed by this entry point.
+      - opencv-python-headless==4.12.0.88
+
+      # Key timm/torchvision dependencies, pinned to the installed versions.
+      # pip resolves the remaining transitive dependencies automatically.
+      - Pillow==12.0.0
+      - PyYAML==6.0.3
+      - huggingface-hub==0.36.0
+      - safetensors==0.6.2
+
+      # ZoneInfo("Asia/Shanghai") fallback when system timezone data is absent.
+      - tzdata==2025.2
