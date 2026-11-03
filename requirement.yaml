@@ -1,17 +1,3 @@
-# Runtime environment for main/SYSU/main_PACE.py.
-# Versions are taken from the project's installed mmmv environment.
-# Target: Linux x86_64 with an NVIDIA driver supporting CUDA 12.1.
-#
-# From the repository root:
-#   conda env create -f test/requirement.yaml
-#   conda activate mmmv-pace
-#   python main/SYSU/main_PACE.py --help
-#
-# Before training, update the split JSON and image/mask paths in
-# dataset/SYSU/cls_dataset_MMMV_train_IMG.py and cls_dataset_MMMV_test_IMG.py.
-# The default pretrained ConvNeXtV2 encoder needs internet access on first use
-# or cached timm/Hugging Face weights. --encoder_pretrained false uses random
-# initialization instead. Use --devices 0 for a single GPU (default: 0,1,2,3).
 name: mmmv-pace
 channels:
   - defaults
