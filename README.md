@@ -2,7 +2,7 @@
 
 # PACE: Partial-Correspondence Auditing and Calibrated Evidential Fusion for Unregistered WLI/NBI Lesion Segmentation
 
-**Pengyu Jie, Wanquan Liu<sup>†</sup>, Rui He, Yihui Wen, Pengcheng Li, Weiping Wen, Deyu Meng, Junwei Han, Chenqiang Gao<sup>†</sup>**
+**Pengyu Jie and others**
 
 <sup>†</sup> Corresponding authors
 
