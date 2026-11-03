@@ -314,7 +314,52 @@ Related work from our group:
   year    = {2026}
 }
 ```
+```bibtex
+@article{jiepy_eClinicalMedicine,
+  author    = {He, Rui and Jie, Pengyu and Hou, Weijian and Long, Yudong and Zhou, Guanqun and Wu, Shumei and Liu, Wanquan and Lei, Wenbin and Wen, Weiping and Wen, Yihui},
+  title     = {Real-time artificial intelligence-assisted detection and segmentation of nasopharyngeal carcinoma using multimodal endoscopic data: a multi-center, prospective study},
+  journal   = {eClinicalMedicine},
+  year      = {2025},
+  month     = {Mar},
+  day       = {01},
+  volume    = {81},
+  issn      = {2589-5370}
+}
+```
+```bibtex
+@article{jiepy_AoM,
+author = {Rui He and Pengyu Jie and Zhangfeng Wang and Yaqiong Lu and Huanhuan Lv and Zixuan Huang and Wendong Liu and Yongquan Wang and Wanquan Liu and Wenbin Lei and Weiping Wen and Yihui Wen},
+title = {Artificial intelligence-assisted real-time nasopharyngeal cancer diagnostic model enhances rhinologist performance: a prospective multi-reader study},
+journal = {Annals of Medicine},
+volume = {58},
+number = {1},
+pages = {2620335},
+year = {2026},
+}
+```
 
+```bibtex
+@article{jiepy_TCSVT,
+  author  = {Jie, Pengyu and Liu, Wanquan and Gao, Chenqiang and Wen, Yihui and He, Rui and Wen, Weiping and Li, Pengcheng and Zhang, Jintao and Meng, Deyu},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  title   = {A Point-Neighborhood Learning Framework for Nasal Endoscopic Image Segmentation},
+  year    = {2025},
+  volume  = {},
+  number  = {},
+  pages   = {1-1}
+}
+```
+```bibtex
+@misc{jie2025diffusionguidedmaskconsistentpairedmixing,
+      title={Diffusion-Guided Mask-Consistent Paired Mixing for Endoscopic Image Segmentation}, 
+      author={Pengyu Jie and Wanquan Liu and Rui He and Yihui Wen and Deyu Meng and Chenqiang Gao},
+      year={2025},
+      eprint={2511.03219},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.03219}, 
+}
+```
 ## Acknowledgements
 
 This implementation builds on [timm](https://github.com/huggingface/pytorch-image-models) (ConvNeXt V2 backbone). We thank the authors of the [PICCOLO dataset](https://doi.org/10.3390/app10238501) and the clinicians who verified the WLI/NBI pairings.
@@ -325,7 +370,7 @@ The license has not been specified yet. Please contact the authors before using 
 
 ## Contact
 
-- Wanquan Liu: liuwq63@mail.sysu.edu.cn
-- Chenqiang Gao: gaochq6@mail.sysu.edu.cn
+- Pengyu Jie: jiepy_wy@163.com
+
 
 Questions and bug reports are welcome via [GitHub Issues](https://github.com/ParryJay/PACE/issues).
