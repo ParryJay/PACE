@@ -307,14 +307,6 @@ If you find this work useful, please cite:
 Related work from our group:
 
 ```bibtex
-@article{jie2026rgsf,
-  title   = {Registration-Grounded Spectral Fusion for Unregistered {WLI/NBI} Endoscopic Lesion Segmentation},
-  author  = {Jie, Pengyu and others},
-  journal = {arXiv preprint arXiv:2607.26395},
-  year    = {2026}
-}
-```
-```bibtex
 @article{jiepy_eClinicalMedicine,
   author    = {He, Rui and Jie, Pengyu and Hou, Weijian and Long, Yudong and Zhou, Guanqun and Wu, Shumei and Liu, Wanquan and Lei, Wenbin and Wen, Weiping and Wen, Yihui},
   title     = {Real-time artificial intelligence-assisted detection and segmentation of nasopharyngeal carcinoma using multimodal endoscopic data: a multi-center, prospective study},
@@ -358,6 +350,14 @@ year = {2026},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2511.03219}, 
+}
+```
+```bibtex
+@article{jie2026rgsf,
+  title   = {Registration-Grounded Spectral Fusion for Unregistered {WLI/NBI} Endoscopic Lesion Segmentation},
+  author  = {Jie, Pengyu and others},
+  journal = {arXiv preprint arXiv:2607.26395},
+  year    = {2026}
 }
 ```
 ## Acknowledgements
