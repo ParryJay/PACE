@@ -332,13 +332,13 @@ year = {2026},
 
 ```bibtex
 @article{jiepy_TCSVT,
-  author  = {Jie, Pengyu and Liu, Wanquan and Gao, Chenqiang and Wen, Yihui and He, Rui and Wen, Weiping and Li, Pengcheng and Zhang, Jintao and Meng, Deyu},
-  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
-  title   = {A Point-Neighborhood Learning Framework for Nasal Endoscopic Image Segmentation},
-  year    = {2025},
-  volume  = {},
-  number  = {},
-  pages   = {1-1}
+  author={Jie, Pengyu and Liu, Wanquan and Gao, Chenqiang and Wen, Yihui and He, Rui and Wen, Weiping and Li, Pengcheng and Zhang, Jintao and Meng, Deyu},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={A Point-Neighborhood Learning Framework for Nasal Endoscopic Image Segmentation}, 
+  year={2025},
+  volume={35},
+  number={11},
+  pages={10944-10958},
 }
 ```
 ```bibtex
