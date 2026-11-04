@@ -6,7 +6,7 @@
 
 <sup>†</sup> Corresponding authors
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20TMI-underreview-blue)](#citation)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20TMI_underreview-blue)](#citation)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-TBD-lightgrey)](#license)
